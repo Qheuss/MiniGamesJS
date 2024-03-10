@@ -1,1 +1,1 @@
-# mini-games-js
+### Mini Games made with js
