@@ -94,16 +94,6 @@ class Pokemilton {
     return phrases[Math.floor(Math.random() * phrases.length)];
   }
 
-  attack(defender) {
-    const damage =
-      this.getRandomNumber(this.attackRange * this.level, this.attackRange) -
-      defender.defenseRange;
-    defender.healthPool -= damage;
-    console.log(
-      `${this.name} attacked ${defender.name} and dealt ${damage} damage!`
-    );
-  }
-
   gainExperience(opponentLevel) {
     const experienceGain = this.getRandomNumber(1, 5) * opponentLevel;
     this.experienceMeter += experienceGain;
