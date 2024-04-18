@@ -1,0 +1,66 @@
+main section {
+  display: flex;
+}
+main section .block {
+  height: 7.5rem;
+  width: 7.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section .block .hero {
+  height: 5rem;
+  width: 5rem;
+  background: url(../images/popCatShut.png) 0 0;
+  background-size: cover;
+}
+main section .block .hero.popCat {
+  background: url(../images/popCatOpen.png) 0 0;
+  background-size: cover;
+}
+main section .wall {
+  background-color: black;
+}
+main section .path {
+  background-color: white;
+}
+main section .start {
+  background-color: yellowgreen;
+}
+main section .treasure {
+  background-color: yellow;
+}
+main section .border {
+  transition: all 0.75s ease-in-out;
+}
+main section .border.active {
+  background-color: rgb(125, 44, 255);
+}
+main section .timer {
+  height: 6.5rem;
+  width: 6.5rem;
+  border: 5px rgb(255, 0, 0) solid;
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: antiquewhite;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
